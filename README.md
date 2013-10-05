@@ -17,7 +17,9 @@ In case of mac
 http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22junit%22%20AND%20a%3A%22junit%22
 
 > vi ~/.bash_profile
+
 > export JUNIT_HOME=/usr/share/java/junit-4.10
+
 > export CLASSPATH="$CLASSPATH:$JUNIT_HOME/junit.jar:$JUNIT_HOME"
 
 - Check if that is the junit version, otherwise modify it
